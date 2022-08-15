@@ -1,8 +1,11 @@
 import { AuthScreen, Input } from "@components";
+import { useNavigation } from "@react-navigation/native";
+import { propsStack } from "@routeModels";
 import { TouchableWithoutFeedback } from "react-native";
 import * as S from "./styles";
 
 export function LogIn() {
+  const { navigate } = useNavigation<propsStack>();
   return (
     <AuthScreen
       formButtonText="Log In"
@@ -16,7 +19,7 @@ export function LogIn() {
         <Input placeholder="Email" />
         <Input placeholder="Password" />
 
-        <TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress={() => navigate("ForgotPassword")}>
           <S.ForgotPassword>I forgot my password</S.ForgotPassword>
         </TouchableWithoutFeedback>
       </>

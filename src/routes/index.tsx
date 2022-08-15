@@ -5,7 +5,10 @@ export function Routes() {
   const isAuthenticated = false;
   return (
     <NavigationContainer>
-      {!isAuthenticated && <PublicRoutes />}
+
+      {!isAuthenticated &&
+
+      <PublicRoutes />}
     </NavigationContainer>
   );
 }
