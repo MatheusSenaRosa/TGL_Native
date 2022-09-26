@@ -6,7 +6,7 @@ export function SignUp() {
       <>
         <Input placeholder="Name" />
         <Input placeholder="Email" />
-        <Input placeholder="Password" />
+        <Input placeholder="Password" autoCapitalize="none" secureTextEntry />
       </>
     </AuthScreen>
   );

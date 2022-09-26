@@ -7,7 +7,8 @@
       "@components": ["./src/components/index"],
       "@screens": ["./src/screens/index"],
       "@routes": ["./src/routes/index"],
-      "@routeModels": ["./src/routes/models/index"]
+      "@routeModels": ["./src/routes/models/index"],
+      "@assets": ["./src/assets/index"]
     }
   }
 }

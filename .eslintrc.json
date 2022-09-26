@@ -26,6 +26,8 @@
     "import/prefer-default-export": 0,
     "react/react-in-jsx-scope": "off",
     "quotes": ["error", "double"],
+    "no-undef": 0,
+
     "react/jsx-filename-extension": [
       1,
       { "extensions": [".js", ".jsx", ".tsx", ".ts"] }
